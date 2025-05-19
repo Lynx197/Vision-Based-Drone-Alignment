@@ -16,7 +16,7 @@ This project implements a **PID-controlled drone alignment system** using **imag
 - Real-time offset computation from image center
 - Clean, modular PID controller in Python
 
-##Project Structure
+## Project Structure
 .
 ├── dynamics.py            # Simulates drone motion and drift
 ├── Controller.py          # Contains the PID controller logic
