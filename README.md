@@ -17,6 +17,7 @@ This project implements a **PID-controlled drone alignment system** using **imag
 - Clean, modular PID controller in Python
 
 ## Project Structure
+```plaintext
 .
 ├── dynamics.py            # Simulates drone motion and drift
 ├── Controller.py          # Contains the PID controller logic
@@ -24,7 +25,7 @@ This project implements a **PID-controlled drone alignment system** using **imag
 ├── main.py                # Integrates all components
 ├── generate.py            # Generates ArUco markers with offsets
 ├── offcenter_aruco.png    # Generated ArUco marker image with offset
-
+```
 
 
 ## How It Works
